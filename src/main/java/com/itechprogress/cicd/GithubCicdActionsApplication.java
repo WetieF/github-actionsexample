@@ -13,6 +13,7 @@ public class GithubCicdActionsApplication {
 	public String getStudent() {
 		return "Welcome, I am learning github actions.";
 	}
+	
 
 	public static void main(String[] args) {
 		SpringApplication.run(GithubCicdActionsApplication.class, args);
