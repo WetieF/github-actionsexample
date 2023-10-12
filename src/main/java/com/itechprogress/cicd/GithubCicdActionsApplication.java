@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api")
 public class GithubCicdActionsApplication {
 
-	@GetMapping("/welcome/students")
+	@GetMapping("/welcome/student")
 	public String getStudent() {
 		return "Welcome, I am learning github actions.";
 	}
