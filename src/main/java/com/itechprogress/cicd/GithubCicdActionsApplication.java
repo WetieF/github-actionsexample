@@ -13,7 +13,7 @@ public class GithubCicdActionsApplication {
 
 	@GetMapping("/welcome/students")
 	public String getStudent() {
-		return "Welcome, I am learning github actions.";
+		return "Welcome, I am learning github actions and git.";
 	}
 
 	public static void main(String[] args) {
